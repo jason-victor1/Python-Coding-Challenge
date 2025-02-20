@@ -1,11 +1,11 @@
-# Prompting the user to provide the base number
-base_num = int(input('Give me the base number: '))
+# Request the base number from the user and convert it to an integer.
+base_num = int(input('Enter the base number: '))
 
-# Prompting the user to provide the power/exponent
-power_num = int(input('Give me the power number: '))
+# Request the exponent from the user and convert it to an integer.
+power_num = int(input('Enter the exponent: '))
 
-# Calculating the result by raising base_num to the power of power_num
+# Compute the result by raising the base number to the exponent.
 result = base_num ** power_num
 
-# Displaying the result to the user
-print('Your result is: ', result)
+# Output the calculated result to the user.
+print('The result is:', result)
